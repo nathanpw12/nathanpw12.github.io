@@ -5,50 +5,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Nathan Vitor - Portfólio</title>
 </head>
 
 <body>
 
-  <h4>Seções:</h4>
+  <nav class="nav-bar">
+    <a class="nav-button" href="#sobre-min"> Sobre min </a>
+    <a class="nav-button" href="#ul-habilidades"> Habilidades </a>
+    <a class="nav-button" href="#outros"> Outros</a>
+  </nav>
 
-  <ul>
-    <li><a href="#sobre-min"> <em> Sobre min </em></a></li>
-    <li><a href="#ul-habilidades"> <em> Habilidades </em></a></li>
-    <li><a href="#ul-habilidades-orgulho"> <em> Habilidades que mais tenho orgulho</em></a></li>
-    <li><a href="#outros"> <em> Outros</em></a></li>
-  </ul>
+  <div id="div-perfil">
+    <img id="perfil" class="perfil" src="images/perfil.jpeg"
+      alt="Foto do Nathan sorrindo e usando uma blusa social preta" width="350px">
+  </div>
 
   <h1>Nathan Vitor de Jesus Silva</h1>
 
-  <img id="perfil" src="/perfil.jpeg" alt="Foto do Nathan sorrindo e usando uma blusa social preta" width="350px">
+  <h4 id="sobre-mim">Sobre mim:</h4>
 
-  <h4 id="sobre-min">Sobre min:</h4>
+  <div id="div-habilidades">
+    <p id="descricao"> Olá! , sou o Nathan e tenho 21 anos <br> Sou brasileiro residente em São José do Rio Preto - São
+      Paulo <br>
+      Atualmente estou cursando Desenvolvimento Web Full Stack na
+      <a id="trybe-a" href="https://www.betrybe.com">Trybe</a> <br>
+    </p>
+  </div>
 
-  <p id="descricao">Tenho 21 anos, sou brasileiro e moro em São José do Rio Preto - São Paulo <br>
-    No momento estou estudando Desenvolvimento Web na </p>
-
-  <a href="https://www.betrybe.com" target="_blanck"><em>Trybe</em> <img src="trybe-logo.png" alt="" width="28px"></a>
-
-  <h4>Habilidades:</h4>
+  <h4>Habilidades que estou aprendendo:</h4>
 
   <ul id="ul-habilidades">
     <li>Git </li>
     <li>Git Hub</li>
-  </ul>
-
-  <h4>Habilidades que mais tenho orgulho:</h4>
-
-  <ul id="ul-habilidades-orgulho">
     <li>HTML</li>
+    <li>CSS</li>
   </ul>
 
+  <h4>Habilidades que vou aprender:</h4>
 
-  <h4 id="outros">Outros:</h4>
-
-  <a href="#perfil"> <em> Minha foto </em></a> <br>
-  <a href="https://canaltech.com.br/" target="_blanck"><em>Blog que gosto</em></a>
-
+  <ul id="ul-habilidades">
+    <li>Javascript</li>
+    <li>React</li>
+    <li>Python</li>
+  </ul>
 
 </body>
 
